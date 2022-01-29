@@ -1,0 +1,32 @@
+body {
+    background-color: #fcfcfc;
+}
+
+.main-color-font {
+  color: #146c8c
+}
+
+.second-color-font {
+  color: #1c446c
+}
+
+.third-color-font {
+  color: #14c49c
+}
+
+.desc {
+  background-color: #f0f9f7;
+  border-radius: 60px 660px;
+}
+
+.mx-150 {
+  margin-left: 80px;
+  margin-right: 80px;
+}
+
+@media only screen and (max-width: 800px) {
+  .desc {
+    border-radius: 0px;
+    width: 100%;
+  }
+}
