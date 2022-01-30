@@ -29,4 +29,9 @@ body {
     border-radius: 0px;
     width: 100%;
   }
+
+  .mx-150 {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
 }
