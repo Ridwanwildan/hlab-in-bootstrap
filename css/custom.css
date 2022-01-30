@@ -33,4 +33,9 @@ body {
     border-radius: 0px;
     width: 100%;
   }
+
+  .mx-150 {
+    margin-left: 25px;
+    margin-right: 25px;
+  }
 }
