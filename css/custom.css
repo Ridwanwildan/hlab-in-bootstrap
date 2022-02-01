@@ -4,6 +4,9 @@ html {
 
 body {
     background-color: #fcfcfc;
+    margin-left: 80px;
+    margin-right: 80px;
+    
 }
 
 .main-color-font {
@@ -28,6 +31,31 @@ body {
   margin-right: 80px;
 }
 
+.font-size-mainlogo {
+  font-size: 60px;
+}
+
+.button-main {
+  background-color: #1c446c;
+  color: #ffffff;
+  filter: drop-shadow(0px 3px 8px #1c446c75);
+  padding: 5px 30px;
+  border-radius: 8px;
+}
+
+.button-main:hover {
+  background-color: #132e49;
+  color: #ffffff;
+  transform: scale(1.02);
+  
+}
+
+.button-main:focus {
+  background-color: #1c446c;
+  color: #ffffff;
+  border-color: #1c446c !important;
+}
+
 @media only screen and (max-width: 800px) {
   .desc {
     border-radius: 0px;
@@ -37,5 +65,14 @@ body {
   .mx-150 {
     margin-left: 10px;
     margin-right: 10px;
+  }
+
+  body {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .font-size-mainlogo {
+    font-size: 40px;
   }
 }
