@@ -39,7 +39,7 @@ body {
   background-color: #1c446c;
   color: #ffffff;
   filter: drop-shadow(0px 3px 8px #1c446c75);
-  padding: 5px 30px;
+  padding: 8px 30px;
   border-radius: 8px;
   border-style: none;
 }
@@ -48,36 +48,46 @@ body {
   background-color: #132e49;
   color: #ffffff;
   transform: scale(1.02);
+  filter: drop-shadow(0px 1px 4px #1c446c75);
   
 }
 
 .button-main:focus {
-  background-color: #1c446c;
+  background-color: #132e49;
   color: #ffffff;
   border-color: #1c446c !important;
 }
 
+.nav-custom {
+  background-color: #f0f9f7;
+}
+
+@media screen {
+  .nav-custom {
+    background-color: #f0f9f7;
+  }
+
+  body {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+}
 @media only screen and (max-width: 800px) {
   html {
     font-size: 14px;
+  }
+
+  body {
+    margin-left: 0px;
+    margin-right: 0px;
   }
 
   .desc {
     border-radius: 0px;
     width: 100%;
   }
-
-  .mx-150 {
-    margin-left: 10px;
-    margin-right: 10px;
-  }
-
-  body {
-    margin-left: 10px;
-    margin-right: 10px;
-  }
-
-  .font-size-mainlogo {
+  
+ .font-size-mainlogo {
     font-size: 40px;
   }
 }
