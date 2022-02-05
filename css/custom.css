@@ -57,8 +57,29 @@ body {
   border-color: #1c446c !important;
 }
 
-.nav-custom {
+.nav-bg-custom {
   background-color: #fafafa;
+}
+
+.nav-custom {
+  color:#1c446c;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+.nav-custom:hover {
+  color:#132e49;
+}
+.nav-active-custom {
+  color:#14c49c;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+.nav-active-custom:hover {
+  color:#0c9676;
 }
 
 .img-custom {
@@ -71,8 +92,9 @@ body {
   border-radius: 0px 8px 0px 8px;
 }
 
-.card-hover:hover {
+.card-custom:hover {
   transform: scale(1.01);
+  color: #132e49;
 }
 
 /*for mobile*/
@@ -101,8 +123,17 @@ body {
     font-size: 55px;
   }
 
-  .card-hover:focus {
+  .card-custom:focus {
     transform: scale(1.02);
+    color: #132e49;
+  }
+
+  .nav-custom {
+    font-size: calc(1.275rem + 0.3vw);
+  }
+
+  .nav-active-custom {
+    font-size: calc(1.275rem + 0.3vw);
   }
 
 }
