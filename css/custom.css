@@ -81,6 +81,11 @@ body {
   border-radius: 8px;
 }
 
+.img-article {
+  max-width: 100%;
+  height: auto;
+}
+
 .badge-custom{
   right: 0px;
   background:#14c49c;
@@ -90,6 +95,11 @@ body {
 .card-custom:hover {
   transform: scale(1.01);
   color: #132e49;
+}
+
+.information-icon {
+  width: 56px;
+  height: 56px;
 }
 
 .footer {
@@ -131,4 +141,17 @@ body {
     font-size: calc(1.275rem + 0.3vw);
   }
 
+  .img-custom {
+    border-radius: 24px;
+  }
+
+  .img-article {
+    max-width: 70%;
+    height: auto;
+  }
+
+  .information-icon {
+    width: 32px;
+    height: 32px;
+  }
 }
